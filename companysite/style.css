@@ -13,23 +13,27 @@ body{
    padding:20px;
 }
 .page{
-   margin-top: 10px;
    max-width:1200px;
    width: 100%;
    height:99vh;
    display: inline-block;
    text-align:left;
-   padding:10px;
    background-color: white;
 }
 
+.redbar{
+  width:100%;
+  background-color:#ce0017;
+  height:50px;
+
+}
 .topofpage{
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
     align-items: center;
     justify-content: flex-start;
-    height: 100px;
+    height: 50px;
     background-color: #white;
 
 }
@@ -75,7 +79,7 @@ a{
 }
 
 a:hover {
-  color:red;  
+  color:#ce0017;  
  }
   a:active {
   color:#CCC;
@@ -85,6 +89,7 @@ a:hover {
   text-align: left;
  padding-left:10px;
  padding-right: 10px;
+ padding-top: 10px;
 
 }
 
