@@ -1,0 +1,223 @@
+body{
+  font-family: open sans; sans-serif;
+  font-size: 18px;
+  background-color: white;
+  margin:0;  
+  padding:0;
+  font-weight:400;
+
+
+}
+.outer{
+   text-align: center;
+   padding:20px;
+}
+.page{
+   position:relative;
+   max-width:1200px;
+   width: 100%;
+   height:99vh;
+   display: inline-block;
+   font-size: 24px;
+   margin:0;
+   background-color: white;
+   opacity: .8;
+   text-align: left;
+  
+}
+
+
+
+
+@media screen and (min-width:850px) and (max-width: 1250px){
+
+  .page{
+    max-width: 800px;
+  }
+}
+
+@media screen and (min-width:1450px){
+
+  .page{
+    max-width: 1400px;
+  }
+}
+
+.redbar{
+  width:100%;
+  background-color:#ce0017;
+  height:50px;
+
+}
+.topofpage{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: flex-start;
+    height: 50px;
+    padding:10px;
+    background-color:white;
+    position: sticky;
+    top:0;
+    z-index: 100;
+  
+
+}
+
+.logo{
+  max-width: 100px;
+  text-align: left;
+
+
+}
+
+.logo_img {
+  width:50%;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+#menu{
+    display:none;
+ }
+
+.nav{
+  display:flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items:center;
+  justify-content: flex-start;
+  font-family: sans-serif;
+   margin-left:10px;
+   margin-top:10px;
+   text-align: left;
+   flex-grow: 1;
+
+ }
+
+.search{
+    align-content: flex-end;
+    margin-left: auto;
+    max-width: 100px;
+  
+}
+
+.search_img{
+  width:50%;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+a{
+  color:black;
+  font-size:16px;
+  font-weight: bold;
+  text-decoration: none;
+  margin-right:50px;
+}
+
+a:hover {
+  color:#ce0017;  
+ }
+  a:active {
+  color:#CCC;
+}
+
+
+.content{
+  text-align: left;
+  margin: 20px;
+
+}
+
+.tile{
+   background-repeat: no-repeat;
+  background-size: cover;
+  height: 400px;
+}
+
+.tilebg1{
+  background-image: url("img/tile1.jpg");
+}
+
+.tilebg2{
+  background-image: url("img/tile2.jpg");
+}
+
+.tilebg3{
+  background-image: url("img/tile3.jpg");
+}
+
+.tilebg4{
+  background-image: url("img/tile4.jpg");
+}
+
+.tilebg5{
+  background-image: url("img/tile5.jpg");
+}
+
+.tilebg6{
+  background-image: url("img/tile6.jpg");
+}
+
+@media screen and (max-width: 850px){
+
+  .page{
+      max-width: 768px;
+
+      }
+
+  #menu{
+    display: inline-block;
+  }
+
+  #menu img{
+    width:50px;
+    padding:10px;
+    cursor: pointer;
+  }
+
+  .nav{
+    display:none;
+  }
+
+  .logo{
+    display:none;
+  }
+
+  .search{
+    display: none;
+  }
+}
+
+#menuoverlay{
+  position: absolute;
+  top: 0px;
+  background-color: white;
+  width: 100%;
+  height:98vh;
+  display:none;
+  text-align: center;
+}
+
+
+.innermenu{
+  margin-top: 50px;
+}
+
+.innermenu div{
+  padding-bottom: 50px;
+}
+
+#close{
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 60px;
+  cursor:pointer;
+}
+
+
+
+  
+	  
