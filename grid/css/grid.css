@@ -1,0 +1,122 @@
+body{
+  font-family: open sans; sans-serif;
+  font-size: 18px;
+  background-color: white;
+  margin:0;  
+  padding:0;
+  font-weight:400;
+}
+
+.parent-container{
+   display: flex;
+   justify-content: center;
+}
+.child-container{
+    max-width:1200px;
+  
+  
+}
+
+
+* {
+    box-sizing: border-box;
+    margin:0;
+}
+
+/* ==== GRID SYSTEM ==== */
+
+
+
+
+.container {
+  width: 96%;
+  margin:auto;
+  color:white;
+}
+
+.row {
+  position: relative;
+  width: 100%;
+  
+}
+
+.row [class^="col"] {
+  float: left;
+  margin: 0% 0%;
+  min-height: 0.125rem;
+}
+
+
+.col-1 {
+    width: 8.33%;
+    background: rgba(247,118,241,.5);
+  }
+
+  .col-2 {
+    width: 16.66%;
+    background: rgba(247,108,231,.6);
+  }
+
+  .col-3 {
+    width: 25%;
+    background: rgba(247,98,221,.7);   
+  }
+
+  .col-4 {
+    width: 33.33%;
+    background: rgba(247,88,211,.8);
+  }
+
+  .col-5 {
+    width: 41.67%;
+    background: rgba(247,78,201,.8);
+  }
+
+  .col-6 {
+    width: 50%;
+    background: rgba(247,68,191,.8);
+  }
+  
+
+  .col-7 {
+    width: 58.33%;
+    background: rgba(247,58,181,.8);
+  }
+
+  .col-8 {
+    width: 66.67%;
+    background: rgba(247,48,171,.8);
+  }
+
+  .col-9 {
+    width: 75%;
+    background: rgba(247,38,161,.8);
+  }
+
+  .col-10 {
+    width: 83.33%;
+    background: rgba(247,28,151,.8);
+  }
+
+  .col-11 {
+    width: 91.67%;
+    background: rgba(247,18,141,.8);
+  }
+
+  .col-12 {
+    width: 100%;
+    background: rgba(247,8,131,.8);
+  }
+
+/* This is clearfix, clearing content after each row*/
+.row::after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+div [class^="col"] {
+    height:100px;
+    border: 1px solid white;
+   
+}
