@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <!-- Must have meta tags -->
+  <meta charset="utf-8">
+  <meta name="description" content="Example"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Deals</title>
+
+  <!-- Really should have these -->
+  <meta name="keywords" content="html, css, floats, float left, float right, clearfix, simple grid">  
+  <meta name="author" content="NewSchool, Intro to Web"> 
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <script src="menu.js" type="text/javascript"></script>
+</head>
+<body>
+   
+<!-- Red Bar -->
+<div class="redbar"></div>
+<!-- END Red Bar -->
+
+<!-- Desktop NAV-->
+<div class="topofpage">
+  <div class="container">
+    <div class="row">
+      <div class="col-2">
+        <div class="logo"><a href="index.html"><img src="img/logo.png" alt="logo" border="0" class="logo_img" /></a>
+        </div>
+        </a>
+      </div>
+
+      <div class="col-8 nav">
+        <a href="categories.html" class="navhere">Categories</a>
+        <a href="deals.html" class="navhere">Deals</a>
+        <a href="newandfeatured.html" class="navhere">New and Featured</a>
+        <a href="pickupanddelivery.html" class="navhere">Pickup and Delivery</a>
+      </div>
+      <div class="col-2 search">
+        <a href="search.html"><img src="img/search.png" alt="search here" border="0" class="search_img" /></a>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- END Desktop NAV -->
+
+<!-- Mobile Nav-->
+<div id="menu" onclick="showmenu();"><img src="img/menu.png" alt="menu" /></div>
+<div id="menuoverlay">
+  <div id="close" onclick="hidemenu();">&times;</div>
+  <div class="innermenu">
+    <div class="menuitems">Home</div>
+    <a href="categories.html" class="menuitems">Categories</a>
+    <a href="deals.html" class="menuitems">Deals</a>
+    <a href="newandfeatured.html" class="menuitems">New and Featured</a>
+    <a href="pickupanddelivery.html" class="menuitems">Pickup and Delivery</a>
+    <a href ="search.html" class="menuitems">Search</a>
+  </div>
+</div>
+<!-- END Mobile Nav-->
+
+
+
+<div class="outer">
+  <div class="page">
+    <!-- Main Content -->
+    <div class="contenttext">
+      <img class="image" src="https://via.placeholder.com/1920x1080" alt="interior image" />
+        <h1 class="title">Deals</h1>
+            <p class="big">
+              Lorem ipsum dolor sit amet.
+            </p>
+
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur unde accusamus temporibus molestias deleniti sint ducimus. Quis aspernatur pariatur corporis a natus autem magnam aliquid tempore cum, nam, ratione laudantium.
+          </p>
+     
+    </div>
+    <!-- END Main Content-->
+   </div>
+  </div>
+
+</body>
+</html>

@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <!-- Must have meta tags -->
+  <meta charset="utf-8">
+  <meta name="description" content="Example"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>New and Featured</title>
+
+  <!-- Really should have these -->
+  <meta name="keywords" content="html, css, floats, float left, float right, clearfix, simple grid">  
+  <meta name="author" content="NewSchool, Intro to Web"> 
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <script src="menu.js" type="text/javascript"></script>
+</head>
+<body>
+   
+<!-- Red Bar -->
+<div class="redbar"></div>
+<!-- END Red Bar -->
+
+<!-- Desktop NAV-->
+<div class="topofpage">
+  <div class="container">
+    <div class="row">
+      <div class="col-2">
+        <div class="logo"><a href="index.html"><img src="img/logo.png" alt="logo" border="0" class="logo_img" /></a>
+        </div>
+        </a>
+      </div>
+
+      <div class="col-8 nav">
+        <a href="categories.html" class="navhere">Categories</a>
+        <a href="deals.html" class="navhere">Deals</a>
+        <a href="newandfeatured.html" class="navhere">New and Featured</a>
+        <a href="pickupanddelivery.html" class="navhere">Pickup and Delivery</a>
+      </div>
+      <div class="col-2 search">
+        <a href="search.html"><img src="img/search.png" alt="search here" border="0" class="search_img" /></a>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- END Desktop NAV -->
+
+<!-- Mobile Nav-->
+<div id="menu" onclick="showmenu();"><img src="img/menu.png" alt="menu" /></div>
+<div id="menuoverlay">
+  <div id="close" onclick="hidemenu();">&times;</div>
+  <div class="innermenu">
+    <div class="menuitems">Home</div>
+    <a href="categories.html" class="menuitems">Categories</a>
+    <a href="deals.html" class="menuitems">Deals</a>
+    <a href="newandfeatured.html" class="menuitems">New and Featured</a>
+    <a href="pickupanddelivery.html" class="menuitems">Pickup and Delivery</a>
+    <div class="menuitems">Search</div>
+  </div>
+</div>
+<!-- END Mobile Nav-->
+
+
+
+<div class="outer">
+  <div class="page">
+    <!-- Main Content -->
+    <div class="contenttext">
+      
+      <div class="featured">
+        <h1 class="title">New and Featured</h1>
+            <p class="big">
+              Target's newest and featured articles about our initiative
+            </p>                    
+     </div>
+      <hr>
+     <div class="featured">
+      <img class="image" src="img/tile1.jpg" alt="interior image" />
+      <h2>Target Unveils First Net-Zero Energy Store</h2>
+      <p class="big">Target has made a significant leap in its sustainability efforts by opening its first net-zero energy store in Vista, California.</p>
+        
+        <p> This redesigned store incorporates over 1,800 solar panels, generating more energy than it consumes annually. This initiative is part of Target's broader goal to achieve 100% renewable energy across its operations by 2030. </p>
+        <a  class="button" href="">Learn More</a>
+     </div>
+     <hr>
+ <div class="row articles">
+  <div class="col-mobile col-6 article">
+    <img class="image" src="img/tile2.jpg" alt="interior image" />
+  <h3>Target's Ambitious Sustainability Goals</h3>
+  <p class="">Target has set ambitious sustainability goals as part of its Target Forward strategy. By 2030, the company aims to source 100% of its electricity from renewable sources for all its operations. Target has already made significant progress, sourcing 60% of its electricity from renewable sources as of FY2022. The company is also focusing on reducing greenhouse gas emissions, with a target to achieve net-zero emissions by 2040. </p>
+  <a class="link" href="">Learn more</a>
+</div>
+  <div class="col-mobile col-6 article">
+    <img class="image" src="img/tile3.jpg" alt="interior image" />
+    <h3>Solar Power Drives Target's Renewable Energy Strategy</h3>
+    <p class="">Target's commitment to renewable energy is evident in its extensive use of solar power. The company has installed rooftop solar panels on over 580 buildings, significantly contributing to its goal of sourcing 100% of its electricity from renewable sources by 2030. These solar installations not only reduce Target's carbon footprint but also help in achieving interim sustainability milestones. </p>
+    <a class="link" href="">Learn more</a>
+  </div>
+ </div>
+    </div>
+    <!-- END Main Content-->
+   </div>
+  </div>
+
+</body>
+</html>
